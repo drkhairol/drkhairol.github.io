@@ -120,6 +120,9 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 20px 30px
   tr{border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-bottom:10px}
   td{border:0;padding:3px 0}
 }
+.main dl{margin:0}
+.main dt{font-weight:600;color:var(--navy);margin-top:14px}
+.main dd{margin:2px 0 0}
 </style>
 </head>
 <body>
@@ -269,7 +272,12 @@ footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 20px 30px
         <div>
           <h3 style="margin-top:0">Office</h3>
           <p>Room 168, Business Management Building<br>School of Business Management<br>Universiti Utara Malaysia<br>06010 Sintok, Kedah, Malaysia</p>
-          <p><a href="mailto:khairol@uum.edu.my">khairol@uum.edu.my</a><br><a href="https://drkhairolis.ovh" target="_blank" rel="noopener">drkhairolis.ovh</a></p>
+          <dl>
+            <dt>Email</dt>
+            <dd><a href="mailto:khairol@uum.edu.my">khairol@uum.edu.my</a><br><a href="mailto:drkhairol@gmail.com">drkhairol@gmail.com</a></dd>
+            <dt>Website</dt>
+            <dd><a href="https://drkhairolis.ovh" target="_blank" rel="noopener">drkhairolis.ovh</a></dd>
+          </dl>
         </div>
         <form onsubmit="return sendMail(event)">
           <label for="n">Name</label><input id="n" required>
